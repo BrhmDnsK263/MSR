@@ -1,0 +1,441 @@
+#logo{
+	fill: red;
+}
+.App{
+	margin: 0;
+	padding: 0;
+}
+.HeaderComponent{}
+.HeaderComponent header{
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position:fixed;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #048c72;
+  color: white;
+  font-size: 16px;
+  border-radius: 0px 0px 30px 30px;
+}
+.HeaderComponentTitle{
+}
+.HeaderComponent h1,h2{
+	margin: 0;
+}
+.HeaderComponent nav{
+	float: left;
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+.HeaderComponent nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.HeaderComponent nav ul li{
+	margin: 0;
+	padding: 0 0px 0px 0px;
+	float: left;
+}
+.HeaderComponent nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+.SearchComponent{
+	margin-top: 150px;
+	background-color: #15bd9c;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	align-content: center;
+	text-align: center;
+}
+.SearchComponent form{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-search{
+	text-align: center;
+	width: 100%;
+	border: solid 1px black;
+}
+.filter{
+	margin: 10px 10px 0px 10px;
+}
+.filter-year{
+	text-align: center;
+}
+.SearchComponent button{
+	border-radius: 4px;
+	border: solid 1px black;
+	margin-left: 10px;
+}
+.Error {
+	color:red;
+	text-align: center;
+	padding: 0px;
+	font-size: 25px;
+}
+.SearchResultsComponent{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	width: 800px;
+}
+.movie-boxes-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+.MovieBoxComponent{
+	height: 300px;
+	width: 180px;
+	margin: 10px;
+	text-align: left;
+	padding: 0px;
+	word-wrap: break-word;
+}
+.MovieBoxComponent .imagebox{
+	height: 250px;
+}
+.MovieBoxComponent img{
+	width: 100%;
+	max-height: 250px;
+	border:solid 1px black;
+}
+.MovieBoxComponent h4{
+	margin-top: 15px;
+	font-size: 15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.pager{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pager button{
+	width: 40px;
+}
+.clear-fix{
+	clear: both;
+	height: 50px;
+}
+.MovieComponent{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.MovieComponent header{
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.poster-big{
+	width: 250px;
+	float: left;
+}
+.poster-big img{
+	width: 100%;
+}
+.datamovie{
+	width: 530px;
+	float: right;
+	margin: 0;
+}
+.title-data{
+	margin: 0;
+	background-color: black;
+	color: white;
+	padding: 12px 0px 12px 7px;
+}
+.plot h4{
+	margin: 0px 0px 10px 0px;
+}
+.plot p{
+	margin: 0px 0 20px 0;
+}
+.info h4{
+	margin: 0px 0px 10px 0px;
+}
+.info p{
+	margin: 0px;
+}
+.RatingComponent h4{
+		margin: 20px 0px 10px 0px;
+}
+.RatingComponent p{
+	margin: 0px;
+}
+.FooterComponent{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #057861;
+	height: 30px;
+	color: white;
+}
+
+.FooterComponent a{
+	color: white;
+}
+
+
+
+
+
+
+@media (max-width: 860px) {
+	.SearchComponent form{
+		width: 400px;
+	}
+	.SearchComponent form{
+		width: 380px;
+	}
+	.filter{
+		margin: 20px 10px 5px 10px;
+	}
+	.filter-year{
+		width: 300px;
+		margin-top: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.HeaderComponent nav{
+		padding-left: 20px;
+	}
+	.HeaderComponent nav ul li a{
+		font-size: 12px;
+	}
+	.HeaderComponent h1,h2{
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.SearchComponent{
+		margin-top: 80px;
+	}
+	.text-search{
+		width: 360px;
+		padding: 10px;
+	}
+	.SearchComponent button{
+		padding: 10px;
+		width: 150px;
+		margin: 20px 0 10px 0;
+	}
+	.SearchResultsComponent{
+		width: 420px;
+	}
+	.MovieBoxComponent{
+		height: 300px;
+		width: 140px;
+		margin: 10px;
+	}
+	.MovieBoxComponent h4{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.pager{
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	.pager button{
+		width: 40px;
+		padding: 8px;
+		margin: 3px;
+	}
+	.MovieComponent{
+		width: 300px;
+	}
+	.MovieComponent header{
+		margin-bottom: 10px;
+	}
+	.poster-big{
+		width: 280px;
+		clear:both;
+	}
+	.datamovie{
+		clear: both;
+		padding-top: 20px;
+		width: 280px;
+		float: none;
+	}
+	.title-data{
+		padding: 10px 0px 10px 7px;
+	}
+	.plot h4{
+		margin: 0px 0px 15px 0px;
+	}
+	.plot p{
+		margin: 0px 0 25px 0;
+	}
+	.info h4{
+		margin: 0px 0px 15px 0px;
+	}
+	.info p{
+		margin-bottom: 3px;
+	}
+	.RatingComponent h4{
+			margin: 25px 0px 15px 0px;
+	}
+	.RatingComponent p{
+		margin-bottom: 3px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 520px) {
+	.App{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.SearchComponent form{
+		width: 320px;
+	}
+	.SearchComponent form{
+		width: 320px;
+	}
+	.radio-container{
+		width: 300px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.filter{
+		margin:5px;
+		font-size: 15px;
+	}
+	.filter-year{
+		width: 220px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 20px;
+	}
+	.HeaderComponent nav{
+		padding-left: 20px;
+	}
+	.HeaderComponent nav ul li a{
+		font-size: 12px;
+	}
+	.HeaderComponent h1,h2{
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.SearchComponent{
+		margin-top: 80px;
+	}
+	.text-search{
+		width: 220px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 20px;
+
+	}
+	.SearchComponent button{
+		padding: 10px;
+		width: 150px;
+		margin: 20px 0 10px 0;
+	}
+	.SearchResultsComponent{
+		width: 220px;
+	}
+	.MovieBoxComponent{
+		height: 300px;
+		width: 180px;
+		margin: 10px;
+	}
+	.MovieBoxComponent h4{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.pager{
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	.pager button{
+		width: 40px;
+		padding: 8px;
+		margin: 3px;
+	}
+	.MovieComponent{
+		width: 280px;
+	}
+	.MovieComponent header{
+		margin-bottom: 10px;
+	}
+	.poster-big{
+		width: 280px;
+		float:none;
+	}
+	.datamovie{
+		clear: both;
+		padding-top: 20px;
+		width: 280px;
+		float: none;
+	}
+	.title-data{
+		padding: 10px 0px 10px 7px;
+	}
+	.plot h4{
+		margin: 0px 0px 15px 0px;
+	}
+	.plot p{
+		margin: 0px 0 25px 0;
+	}
+	.info h4{
+		margin: 0px 0px 15px 0px;
+	}
+	.info p{
+		margin-bottom: 3px;
+	}
+	.RatingComponent h4{
+			margin: 25px 0px 15px 0px;
+	}
+	.RatingComponent p{
+		margin-bottom: 3px;
+	}
+
+}
